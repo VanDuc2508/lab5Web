@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1</title>
+    <style>
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: auto; 
+        }
+    </style>
+</head>
+<body>
+    <picture>
+        <source srcset="meo1.jpg" media="(max-width: 600px)">
+        <source srcset="meo2.jpg">
+        <img src="meo2.jpg" alt="Cat" style="width: auto;">
+    </picture>
+    <p>Thay đổi kích thước màn hình  để đổi ảnh hiển thị.</p>
+</body>
+</html>
